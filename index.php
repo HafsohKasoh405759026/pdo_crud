@@ -40,7 +40,7 @@ if($query->rowCount() > 0){ #rowCount เช็คจำนวนแถวที
            <td><?=$row['firstname'].' '.$row['lastname']?></td>
            <td><?=$row['status']?></td>
            <td>
-            <a href="#">ดู</a> | <a href="#">แก้ไข</a> | <a href="#">ลบ</a>
+            <a href="view.php">ดู</a> | <a href="update.php">แก้ไข</a> | <a href="#">ลบ</a>
            </td>
          </tr>
 <?php
